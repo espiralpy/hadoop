@@ -1,0 +1,4 @@
+0.- ejecutar env_variables.sh
+1.- ejecutar archivo 1
+2.- ejecutar archivo 3
+3.- ejecutar archivo 4
