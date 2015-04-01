@@ -61,7 +61,7 @@ su -l hduser  -c 'cat $HOME/.ssh/id_rsa.pub >> $HOME/.ssh/authorized_keys &'
 
 echo "Crear archivo 2_hadoop_ssh_local.sh"
 su -l hduser -c ' cat <<EOL > 2_hadoop_ssh_local.sh
-!/bin/bash
+#!/bin/bash
 ssh hduser@localhost
 EOL'
 

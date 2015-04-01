@@ -1,3 +1,10 @@
+ .- descargar hadoop:
+	http://apache.mirrors.pair.com/hadoop/common/stable2/hadoop-2.6.0.tar.gz 
+ .- descargar jdk 1-7-75
+	-opcion 1
+	http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
+	-opcion 2
+        download.oracle.com/otn-pub/java/jdk/7u75-b13/jdk-7u75-linux-x64.tar.gz
 0.- ejecutar env_variables.sh
 1.- ejecutar archivo 1
 2.- ejecutar archivo 3

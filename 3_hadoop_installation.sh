@@ -3,7 +3,7 @@
 #
 echo "------Instalando Hadoop"
 echo "------Descomprimiendo paquete tar hadoop"
-tar -xvf hadoop-2.6.0.tar.gz
+tar -xvf /home/hadoopuser/hadoopsettest/hadoop-2.6.0.tar.gz
 mv hadoop-2.6.0 hadoop
 echo "------Moving folder hadoop to /usr/local"
 echo "hadoop" | sudo -S cp -r hadoop /usr/local
