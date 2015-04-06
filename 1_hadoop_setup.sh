@@ -47,6 +47,7 @@ sleep 2
 sudo sh -c 'echo "hadoop\nhadoop\n" | passwd hduser &'
 sudo sh -c 'adduser hduser hadoop &'
 sudo sh -c 'chown hduser:hadoop /home/hduser/ &'
+sleep 2
 
 echo "------Creando ssh keys id_rsa"
 su -l hduser  -c 'echo "id_rsa" | ssh-keygen -t rsa -P ""'  
