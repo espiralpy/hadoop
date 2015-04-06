@@ -12,4 +12,4 @@ echo hadoop | sudo -S cp  /home/hadoopuser/hadoopsettest/env_hadoop_format.sh /h
 su -l hduser  -c  './env_bash_hduser.sh &'
 
 #Reboot para refrescar cambios de variables export 
-echoo hadoop | sudo -S reboot
+echo hadoop | sudo -S reboot
